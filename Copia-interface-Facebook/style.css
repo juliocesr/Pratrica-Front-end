@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    text-decoration: none;
+    background-color:  #F0F2F5;
+}
+.conteudo-desktop {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+.img-desktop {
+    max-width: 295px;
+    width: 100%;
+    height: 90px;
+}
+#img-desktop {
+    max-width: 295px;
+    width: 100%;
+    height: 105px;
+}
+.conteudo-texto {
+    padding: 95px 90px 0 195px;
+    max-width: 525px;
+    width: 60%;
+    height: auto;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-texto p {
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+.container {
+    max-width: 1440px;
+    width: 84%;
+    display: flex;
+    align-items: center;
+}
+.formulario {
+    max-width: 395px;
+    width: 100%;
+    height: auto;
+    padding: 155px 0 0 0;
+    text-align: center;
+}
+.texto-2 {
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+}
+.texto-2 p, a {
+    font-size: 14px;
+}
+#negrito {
+    font-weight: bold;
+    color: black;
+    text-decoration: black;
+}
+.conteudo-formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 395px;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #DBDDE0;
+    font-size: 1.25em; 
+}
+.email {
+    max-width: 395px;
+    width: 87%;
+    height: 80px;
+    padding: 20px 0 0 0;
+    margin: 0 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+.email input {
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 17px 5px 17px 16px;
+    border: 1px solid #DBDDE0;
+    background-color: white;
+}
+.senha {
+    max-width: 395px;
+    width: 87%;
+    height: 80px;
+    padding: 15px 0 0 0;
+    margin: 0 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+.senha input {
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    padding: 17px 5px 17px 16px;
+    border: 1px solid #DBDDE0;
+    background-color: white;
+}
+.btn-entrar {
+    max-width: 400px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-entrar button {
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #1773EC;
+    color: white;
+    font-size: 20px;
+}
+.btn-entrar a {
+    font-size: 14px;
+    color: #1773EC;
+    background-color: white;
+} 
+.btn-entrar a::after {
+    content: '';
+    width: 100%;
+    margin-top: 10px;
+    height: 1px;
+    background-color: #CCD0D5;
+    display: block;
+
+}
+.btn-criar {
+    max-width: 165px;
+    padding: 0 15px 15px 15px;
+    margin: 0 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+.btn-criar button {
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #36A420;
+    color: white;
+    font-size: 20px;
+}
+@media (max-width: 945px) {
+    .container {
+        max-width: 945px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-desktop {
+        max-width: 945px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo-texto {
+        max-width: 945px;
+        width: 45%;
+        padding: 80px 50px 0 50px;
+    }
+    .conteudo-texto p {
+        display: none;
+    }
+    .formulario {
+        padding: 50px 0 0 0;
+    }
+}
+@media (min-width: 426px) {
+    .img-mobile, .conteudo-mobile {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+    #img-desktop, .coneutdo-desktop{
+        display: none;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    input {
+        outline: 0;
+    }
+    #img-mobile {
+        display: block;
+        max-width: 425px;
+        width: 100%;
+        padding: 0 0 50px 0 ;
+    }
+    .conteudo-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: auto;
+        max-width: 425px;
+        width: 100%;
+        height: auto;
+    }
+    .email-mobile {
+        max-width: 425px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    #email {
+        width: 75%;
+        font-size: 1em;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid #CCD0D5;
+    }
+    .senha-mobile {
+        max-width: 425px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    #senha {
+        width: 75%;
+        font-size: 1em;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid #CCD0D5;
+    }
+    .btn-entrar-mobile {
+        max-width: 425px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 10px 0;
+    }
+    #entrar {
+        width: 75%;
+        height: 35px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(22,112,230);
+        cursor: pointer;
+    }
+    .recuperar-senha-mobile a {
+        color: rgb(22,112,230);
+    }
+    .separacao {
+        padding: 30px;
+        max-width: 425px;
+        width: 75%;
+        color: #CCD0D5;
+    }
+    .separacao::before, .separacao::after {
+        content: '';
+        width: 40%;
+        height: 1px;
+        margin: 4px 10px;
+        background-color: #CCD0D5;
+        display: inline-block;
+    }
+    #btn-criar-conta {
+        width: 100%;
+        font-size: 14px;
+        padding: 5px;
+        height: 35px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: #119F16;
+        cursor: pointer;
+    }
+    @media (min-width: 320px) (max-width: 420px) {
+        .separacao {
+            width: 80%;
+        }
+        .separacao::after, .separacao::before {
+            width: 39%;
+        }
+    }
+    @media (max-width: 320px) {
+        .separacao {
+            width: 80%;
+        }
+        .separacao::after, .separacao::before {
+            width: 37%;
+        }
+    }
+}
+

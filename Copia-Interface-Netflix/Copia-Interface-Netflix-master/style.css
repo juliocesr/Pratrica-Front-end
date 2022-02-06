@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Backgroud */
+body {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+/* gradiente da imagem de fundo */
+.gradiente {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+/* Cabeçalho */
+.header {
+    background: url(img/netflix.bg.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 702.948px; 
+}
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 56px;
+    padding: 8px 0 0 0;   
+}
+/* Logo netflix */
+.logo-icone {
+    z-index: 1;
+}
+#logo {
+    width: 134px;
+    height: 36px;
+    user-select: none;
+}
+/* Botão de login */
+.login-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #e50914;
+    padding: 7px 17px;
+    border-radius: 3px;
+    font-size: 16px;
+    position: relative;
+}
+.btn button {
+    padding: 0 16px;
+    width: 180px;
+    height: 60px;
+    margin: 6.4px auto;
+    font-size: 26px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+/* Menu de inicio */
+.corpo {
+    padding: 75px 45px;
+}
+.conteudo {
+    position: relative;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+}
+.conteudo h1 {
+    font-size: 50px;
+    max-width: 640px;
+}
+.conteudo h2 {
+    margin: 16px auto;
+    font-size: 26px;
+    max-width: 640px;
+}
+.menu {
+    max-width: 640px;
+    margin: 0 auto;
+}
+.formulario {
+    padding: 13.6px;
+    max-width: 950px;
+}
+.formulario h3 {
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+.estrutura {
+    display: flex;
+    flex-direction: row;
+    max-width: 950px;
+    align-items: center;
+    justify-content: center;
+}
+.estrutura input {
+    width: 420px;
+    height: 60px;
+    font-size: 16px;
+    padding: 0 10px 0;
+    box-shadow: none;
+    border: none;
+}
+/* iterface tv */
+.conteudo-tv {
+    padding: 70px 45px;
+    background-color: black;
+    position: relative;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+    width: 1333px;
+    height: 280px;
+}
+.conteudo-container {
+    display: flex;
+    padding: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 280px;
+}
+.texto {
+    margin: 55px 0;
+    padding: 0 48px 0 0;
+    flex: 0 1 auto;
+}
+.texto h1 {
+    font-size: 50px;
+    margin-bottom: 30px ;
+}
+.texto h2 {
+    font-size: 25px;
+    margin: 12px 0 4px;
+}
+.img {
+    width: 530px;
+    height: 401px;
+}
+.img img {
+    width: 500px;
+    height: 360px;
+}
+/* interface smartphone */
+.conteudo-smartphone {
+    padding: 70px 45px;
+    background-color: black;
+    position: relative;
+    border-bottom: 8px solid #222;
+    width: 1333px;
+    height: 280px;
+}
+.smartphone-container {
+    display: flex;
+    padding: 0 auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 280px;
+}
+/* Interface computador */
+.conteudo-computador{
+    padding: 70px 45px;
+    background-color: black;
+    position: relative;
+    border-bottom: 8px solid #222;
+    width: 1333px;
+    height: 280px;
+}
+.computador-container{
+    display: flex;
+    padding: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 280px;
+}
+/* interface kids */
+.conteudo-kid{
+    padding: 70px 45px;
+    background-color: black;
+    position: relative;
+    border-bottom: 8px solid #222;
+    width: 1333px;
+    height: 280px;
+}
+.kid-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 280px;
+}
+/* formulario-final */
+.formulario-final {
+    width: 1333px;
+    height: 700px;
+    text-align: center;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding: 75px 45px;
+}
+.texto-final {
+    font-size: 26px;
+}
+.texto-final h1 {
+    font-size: 50px;
+}
+.texto-final ul {
+    width: 815px;
+    margin: 32px auto;
+}
+.texto-final li {
+    list-style: none;
+    margin: 0 0 8px 0;
+}
+.texto-final button {
+    padding: 12.8px 35px 12.8px 28.8px; 
+    width: 815px;
+    height: 73px;
+    display: block;
+    text-align: left;
+    background-color: #303030;
+    color: white;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+}
+/* parte final */
+.formulario-footer {
+    padding: 0 auto;
+    max-width: 1333px;
+}
+.estrutura-footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1333px;
+    align-items: center;
+    justify-content: center;
+}
+.estrutura-footer input {
+    width: 420px;
+    height: 60px;
+    font-size: 16px;
+    padding: 0 10px 0;
+    box-shadow: none;
+    border: none;
+}
+.formulario-footer h3 {
+    padding-bottom: 20px;
+    font-size: 19px;
+}
